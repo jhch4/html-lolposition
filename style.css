@@ -1,5 +1,5 @@
 a {
-  color: black;
+  color: ;
 }
 h1 {
   font-size:50px;
@@ -37,4 +37,14 @@ body {
   h1 {
     border-bottom: none;
   }
+}
+input {
+  margin-left: 5px;
+}
+
+#vertical div {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    width:100px;
+    border-left:1px solid gray;
 }
