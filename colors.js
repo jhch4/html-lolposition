@@ -21,16 +21,16 @@ var Body = {
 }
 function nightDayHandler(self){ // self : 매개변수
   var target = document.querySelector('body')
-  if(self.value === 'night') {
+  if(self.value === 'Night mode') {
     Body.setBakcgroundColor('black');
     Body.setColor('white');
-    self.value = 'day';
+    self.value = 'Day mode';
 
     Links.setColor('powderblue');
   } else {
     Body.setBakcgroundColor('white');
     Body.setColor('black');
-    self.value = 'night';
+    self.value = 'Night mode';
 
     Links.setColor('blue');
   }
